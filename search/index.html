@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Google</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="https://www.google.com/search">
+        <div id="top-right-links">
+            <a href="images.html">Image Search</a>
+            <a href="advanced.html">Advanced Search</a>
+        </div>
+        <div id="logo">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+        </div>
+        <div id="search-bar">
+            <input type="text" id="search-input" name="q" placeholder="Search...">
+        </div>
+        <div id="button-container">
+            <button type = "submit" class="button">Google Search</button>
+            <button type = "submit" onclick="window.location.href='https://www.google.com/search?q=' + document.getElementById('search-input').value + '&btnI=I%27m+Feeling+Lucky'; return false;" class="button">I'm Feeling Lucky</button>
+        </div>
+    </form>
+</body>
+</html>
