@@ -1,141 +1,139 @@
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-    }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-    #search-bar {
-        text-align: center;
-        margin-bottom: 20px;
-        margin-top: 20px;
-    }
+#search-bar {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 
-    #search-input {
-        padding: 10px;
-        border-radius: 20px;
-        border: 1px solid #ccc;
-        width: 500px;
-    }
+#search-input {
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    width: 500px;
+}
 
-    .button {
-        display: inline-block;
-        margin-right: 10px;
-        border-radius: 20px;
-        padding: 10px 20px;
-        background-color: whitesmoke;
-        color: black;
-        border: none;
-        cursor: pointer;
-        border-radius: 0;
-    }
+.button {
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
 
-    .button:last-child {
-        margin-right: 0;
-    }
+.button:last-child {
+    margin-right: 0;
+}
 
-    #button-container {
-        text-align: center;
-    }
+#button-container {
+    text-align: center;
+}
 
-    #top-right-links {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-    }
+#top-right-links {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
 
-    a {
-        margin-left: 10px;
-    }
+a {
+    margin-left: 10px;
+}
 
-    #images {
-        color: #4285f4;
-        margin-left: 210px;
-        font-weight: 200;
-        white-space: nowrap;
-        margin-top: -20px;
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: center;
-    }
+#images {
+    color: #4285f4;
+    margin-left: 210px;
+    font-weight: 200;
+    white-space: nowrap;
+    margin-top: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
 
-    #logo img {
-        width: 272px;
-    }
+#logo img {
+    width: 272px;
+}
 
-    #logo {
-        text-align: center;
-        margin-top: 60px;
-    }
+#logo {
+    text-align: center;
+    margin-top: 60px;
+}
 
-    #advancedlogo img {
-        text-align: left;
-        width: 75px;
-    }
+#advancedlogo img {
+    text-align: left;
+    width: 75px;
+}
 
-    #advancedlogo {
-        text-align: left;
-        margin-left: 12px;
-        margin-top: 20px;
-    }
+#advancedlogo {
+    text-align: left;
+    margin-left: 12px;
+    margin-top: 20px;
+}
 
-    #redtitle {
-        font-size: 20px;
-        color: rgb(230, 6, 6);
-        text-align: left;
-        margin-left: 45px;
-        margin-top: 38px;
-    }
+#redtitle {
+    font-size: 20px;
+    color: rgb(230, 6, 6);
+    text-align: left;
+    margin-left: 45px;
+    margin-top: 38px;
+}
 
-    #findsearch {
-        margin-top: 76px;
-        font-size: 15px;
-        margin-left: 30px;
-    }
+#findsearch {
+    margin-top: 76px;
+    font-size: 15px;
+    margin-left: 30px;
+}
 
-    #queries {
-        margin-top: 15px;
-        font-size: 12px;
-    }
+#queries {
+    margin-top: 15px;
+    font-size: 12px;
+}
 
-    .query {
-        position: relative; /* This makes the container a positioning context for its children */
-        margin-bottom: 20px; /* Add space between each query for better readability */
-    }
+.query {
+    position: relative; 
+    margin-bottom: 20px; 
+}
 
-    .query input.search-bar-advanced {
-        position: absolute; /* This allows us to position the input box relative to the .query container */
-        margin-left: 50px;
-        left: 100px; /* This positions the input box 100px from the left edge of the .query container */
-        width: 300px; /* Adjust the width as needed */
-    }
+.query input.search-bar-advanced {
+    position: absolute; 
+    margin-left: 50px;
+    left: 100px; 
+    width: 300px; 
+}
 
-    .button2 {
-        display: inline-block;
-        background-color: #4d90fe; /* Light blue background */
-        color: #FFFFFF; /* White text */
-        border: none; /* No border */
-        text-align: center;
-        font-size: 12px; /* Adjust font size as needed */
-        padding: 8px 16px; /* Padding around the text */
-        width: auto; /* Width adjusts to content */
-        cursor: pointer; /* Cursor changes to pointer on hover */
-        border-radius: 0; /* Ensures the button is fully rectangular */
-        transition: background-color 0.3s ease; /* Smooth transition for hover effects */
-        margin-left: 360px;
-    }
+.button2 {
+    display: inline-block;
+    background-color: #4d90fe; 
+    color: #FFFFFF; 
+    border: none; 
+    text-align: center;
+    font-size: 12px; 
+    padding: 8px 16px; 
+    width: auto; 
+    cursor: pointer; 
+    border-radius: 0; 
+    transition: background-color 0.3s ease; 
+    margin-left: 360px;
+}
 
-    .button2:hover {
-        background-color: #4687f0; /* Slightly darker blue on hover */
-    }
+.button2:hover {
+    background-color: #4687f0; 
+}
 
-    .advanced-title {
-        position: relative;
-    }
+.advanced-title {
+    position: relative;
+}
 
-    .advanced-title::after {
-        content: '';
-        position: absolute;
-        left: -100px;
-        bottom: -20px; /* Adjust this value to position the line */
-        width: 300%;
-        height: 1px;
-        background-color: rgb(231, 226, 226); /* Change this to the desired color */
-    }
-
+.advanced-title::after {
+    content: '';
+    position: absolute;
+    left: -100px;
+    bottom: -20px; 
+    width: 300%;
+    height: 1px;
+    background-color: rgb(231, 226, 226); 
+}
